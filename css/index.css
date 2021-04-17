@@ -83,6 +83,7 @@ header section{
 }
 .socialIcons{
     text-align: center;
+    margin-bottom: 40px;
 }
 .socialIcons a{
     text-align: center;
@@ -100,4 +101,44 @@ header section{
     color: whitesmoke;
     background-color: darkgoldenrod;
     opacity: 100%;
+}
+footer{
+    background-color: black;
+    color: grey;
+    display: flex;
+    text-align: left;
+}
+footer section{
+    flex: 1;
+    margin: 20px;
+}
+footer ul{
+    list-style: none;
+    padding: 0px;
+}
+footer a{
+    text-decoration: none;
+    color: grey;
+    transition: 250ms;
+    padding: 3px;
+}
+footer a:hover{
+    color: goldenrod;
+}
+footer h2{
+    border-bottom: 3px solid grey;
+    color: rgba(245, 245, 245, 0.746);
+}
+.lastStrip{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: grey;
+    border-top: 3px solid rgba(128, 128, 128, 0.2);
+}
+.footerlogo{
+    width: 10%;
+    padding: 5px;
+    margin: 5px;
 }
