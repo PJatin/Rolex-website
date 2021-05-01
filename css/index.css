@@ -4,19 +4,20 @@ body{
 }
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
     background: transparent;
     position: fixed;
-    width: 100%;
     z-index: 1;
+    width: 100vw;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 header section{
     margin-bottom: 0.3rem;
 }
 .logo{
-    width: 10%;
-    height: 5%;
+    width: 15vw;
     margin-top: 0.3rem;
 }
 .headerNavs ul{
@@ -28,24 +29,22 @@ header section{
 .headerNavs ul li a{
     text-decoration: none;
     color: whitesmoke;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 1vw;
     font-family: sans-serif;
     font-weight: bolder;
-    letter-spacing: 2px;
+    letter-spacing: 0.5vw;
 }
 .row1 section p:first-child, .row3{
-    font-size: 50px;
+    font-size: 3vw;
     font-family: 'Dancing Script', cursive;
-    line-height: 50px;
-    margin: 100px;
     text-align: center;
 }
 .row1 section p:last-child{
-    font-size: 15px;
-    letter-spacing: 3px;
-    margin: 100px;
-    margin-top: 50px;
+    font-size: 1vw;
+    letter-spacing: 0.3vw;
+    margin: 5vh;
     text-align: center;
 }
 .row2{
@@ -57,20 +56,18 @@ header section{
     position: absolute;
     color: rgba(245, 245, 245, 1);
     background-color: rgba(0, 0, 0, 0.39);
-    padding-left: 100px;
-    padding-right: 100px;
-    width: fit-content;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 .row2 section h2{
-    font-size: 70px;
-    letter-spacing: 5px;
+    font-size: 5vw;
+    letter-spacing: 1vw;
     font-family: 'Monoton', cursive;
     text-transform: capitalize;
 }
 .row2 section p{
-    font-size: 15px;
-    padding: 5px;
-    letter-spacing: 3px;
+    font-size: 2vw;
+    letter-spacing: 0.5vw;
 }
 .row4{
     display: flex;
@@ -79,22 +76,23 @@ header section{
 }
 .row4 section img{
     border-radius: 50%;
-    margin: 15px;
+    margin: 2vw;
 }
 .socialIcons{
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 4vh;
 }
 .socialIcons a{
     text-align: center;
     color: goldenrod;
     text-decoration: none;
-    font-size: 30px;
-    width: 30px;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.466);
     border-radius: 50%;
-    padding: 10px;
-    margin: 10px;
+    font-size: 5vw;
+    height: 1em;
+    width: 1em;
+    padding: 1vw;
+    margin: 1vw;
     transition: 500ms;
 }
 .socialIcons a:hover{
