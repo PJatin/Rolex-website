@@ -70,9 +70,11 @@ header section{
 }
 .row4{
     display: flex;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
     scrollbar-width: thin;
     align-items: center;
+    height: 50vh;
 }
 .socialIcons{
     text-align: center;
