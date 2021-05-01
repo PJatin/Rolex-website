@@ -12,9 +12,6 @@ header{
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
-header section{
-    margin-bottom: 0.3rem;
-}
 .logo{
     width: 15vw;
     margin-top: 1px;
@@ -30,18 +27,17 @@ header section{
     color: whitesmoke;
     margin-left: 1vw;
     margin-right: 1vw;
-    font-size: 1vw;
-    font-family: sans-serif;
-    font-weight: bolder;
-    letter-spacing: 0.5vw;
+    font-size: 2vw;
+    letter-spacing: 1px;
 }
 .row1 section p:first-child, .row3{
-    font-size: 3vw;
+    font-size: 6vw;
+    padding: 10vh;
     font-family: 'Dancing Script', cursive;
     text-align: center;
 }
 .row1 section p:last-child{
-    font-size: 1vw;
+    font-size: 2vw;
     letter-spacing: 0.3vw;
     margin: 5vh;
     text-align: center;
@@ -73,8 +69,8 @@ header section{
     overflow-x: scroll;
     overflow-y: hidden;
     scrollbar-width: thin;
+    -webkit-scrollbar-width: thin;
     align-items: center;
-    height: 50vh;
 }
 .socialIcons{
     text-align: center;
@@ -103,26 +99,30 @@ footer{
     color: grey;
     display: flex;
     text-align: left;
-}
-footer section{
-    flex: 1;
+    justify-content: space-around;
 }
 footer ul{
     list-style: none;
     padding: 0px;
+    margin: 0px;
 }
 footer a{
     text-decoration: none;
     color: grey;
     transition: 250ms;
     padding: 3px;
+    font-size: 2vw;
 }
 footer a:hover{
     color: goldenrod;
 }
 footer h2{
-    border-bottom: 3px solid grey;
+    font-size: 3vw;
+    border-bottom: 0.3px solid grey;
     color: rgba(245, 245, 245, 0.746);
+}
+footer section:last-child ul li a{
+    font-size: 2vw !important;
 }
 .lastStrip{
     background-color: black;
@@ -133,7 +133,10 @@ footer h2{
     border-top: 3px solid rgba(128, 128, 128, 0.2);
 }
 .footerlogo{
-    width: 10%;
-    padding: 5px;
-    margin: 5px;
+    width: 10vw;
+    padding: 0.5vw;
+    margin: 0.5vw;
+}
+.copyright{
+    font-size: 2vw;
 }
