@@ -6,8 +6,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    background: transparent;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     width: 100vw;
     backdrop-filter: blur(10px);
@@ -18,7 +17,7 @@ header section{
 }
 .logo{
     width: 15vw;
-    margin-top: 0.3rem;
+    margin-top: 1px;
 }
 .headerNavs ul{
     list-style: none;
@@ -71,12 +70,9 @@ header section{
 }
 .row4{
     display: flex;
-    overflow: auto;
+    overflow: scroll;
     scrollbar-width: thin;
-}
-.row4 section img{
-    border-radius: 50%;
-    margin: 2vw;
+    align-items: center;
 }
 .socialIcons{
     text-align: center;
@@ -108,7 +104,6 @@ footer{
 }
 footer section{
     flex: 1;
-    margin: 20px;
 }
 footer ul{
     list-style: none;
